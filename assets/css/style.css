@@ -1,5 +1,6 @@
-.gif-image {
+.gif-div {
     float: left;
+    margin: 10px;
     /* max-width: 200px; */
 }
 
@@ -16,8 +17,8 @@ p, label {
     color: azure;
 }
 
-img {
-    /* max-width: 200px; */
-    float: left;
-    
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9d71c;
+    text-align: center;
 }

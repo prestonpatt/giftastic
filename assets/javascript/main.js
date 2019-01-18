@@ -16,7 +16,7 @@ function addThing() {
   var addTopic = $("#topic-input").val();
   topics.push(addTopic);
   renderButtons();
-  $("#topic-input").val(''); //why doesn't this clear the form after search?
+  $("#topic-input").val('');
   return false;
 };
 
@@ -50,6 +50,7 @@ $(document).on("click", "button", function () {
         gifImage.attr("data-still", response.data[i].images.fixed_height_still.url)
         gifImage.attr("data-animate", response.data[i].images.fixed_height.url);
         gifImage.attr("data-state", "still");
+        gifDiv.addClass('gif-div')
         gifDiv.append(p, gifImage);
 
         $("#gifs-appear-here").prepend(gifDiv);
