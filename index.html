@@ -7,27 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Star Wars Gifs!</title>
 </head>
 
 <body>
+    <h1>Star Wars Gifs!</h1>
     <div class='container'>
         <div class='row'>
             <div id="topics-buttons"></div>
         </div>
         <div class='row'>
             <div class='col-10'>
-                <div id="gifs-appear-here">
-                </div>
-                <div class='col-2'>
-                    <div>Search box goes here</div>
-                </div>
+                <div id="gifs-appear-here"></div>
             </div>
+            <form class='col-2'>
+                <label for="topic-input">Search a new topic</label>
+                <input type="text" id="topic-input"><br>
+                <input id="add-topic" type="submit" value="Search">
+            </form>
         </div>
+    </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript"></script>
-    <script src="assets/javascript/javascript.js"></script>
+    <script src="assets/javascript/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+.gif-image {
+    float: left;
+    /* max-width: 200px; */
+}
+
+body {
+    background-image: url(../images/background.png);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9d71c;
+    text-align: center;
+}
+p, label {
+    color: azure;
+}
+
+img {
+    /* max-width: 200px; */
+    float: left;
+    
+}
